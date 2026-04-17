@@ -12,7 +12,7 @@
 server_name: "freday.local"
 pid_file: /workspaces/freday/freday-server/homeserver.pid
 listeners:
-  - bind_addresses:
+  - bind_addresses: ["0.0.0.0"]
     - ::1
     - 127.0.0.1
     port: 8008

@@ -2521,3 +2521,103 @@ synapse.app._base.ListenerException: Failed to listen on TCP port (8008) with th
 2026-04-17 11:07:59,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-166 - Rotating notifications
 2026-04-17 11:07:59,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-166 - Rotating notifications up to: 1
 2026-04-17 11:07:59,720 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-166 - Rotating notifications, handling 0 rows
+2026-04-17 11:07:59,721 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-166 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:07:59,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-166 - Dropped 0 items from caches
+2026-04-17 11:08:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-167 - Rotating notifications
+2026-04-17 11:08:29,720 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-167 - Rotating notifications up to: 1
+2026-04-17 11:08:29,720 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-167 - Rotating notifications, handling 0 rows
+2026-04-17 11:08:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-167 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:08:29,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-167 - Dropped 0 items from caches
+2026-04-17 11:08:59,729 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-168 - Rotating notifications
+2026-04-17 11:08:59,732 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-168 - Rotating notifications up to: 1
+2026-04-17 11:08:59,732 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-168 - Rotating notifications, handling 0 rows
+2026-04-17 11:08:59,746 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-168 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:08:59,782 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-168 - Dropped 0 items from caches
+2026-04-17 11:09:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-169 - Rotating notifications
+2026-04-17 11:09:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-169 - Rotating notifications up to: 1
+2026-04-17 11:09:29,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-169 - Rotating notifications, handling 0 rows
+2026-04-17 11:09:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-169 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:09:29,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-169 - Dropped 0 items from caches
+2026-04-17 11:09:29,826 - synapse.storage.databases.main.metrics - 404 - INFO - generate_user_daily_visits-16 - Calling _generate_user_daily_visits
+2026-04-17 11:09:59,718 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-170 - Rotating notifications
+2026-04-17 11:09:59,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-170 - Rotating notifications up to: 1
+2026-04-17 11:09:59,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-170 - Rotating notifications, handling 0 rows
+2026-04-17 11:09:59,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-170 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:09:59,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-170 - Dropped 0 items from caches
+2026-04-17 11:10:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-171 - Rotating notifications
+2026-04-17 11:10:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-171 - Rotating notifications up to: 1
+2026-04-17 11:10:29,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-171 - Rotating notifications, handling 0 rows
+2026-04-17 11:10:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-171 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:10:29,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-171 - Dropped 0 items from caches
+2026-04-17 11:10:59,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-172 - Rotating notifications
+2026-04-17 11:10:59,720 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-172 - Rotating notifications up to: 1
+2026-04-17 11:10:59,720 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-172 - Rotating notifications, handling 0 rows
+2026-04-17 11:10:59,721 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-172 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:10:59,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-172 - Dropped 0 items from caches
+2026-04-17 11:11:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-173 - Rotating notifications
+2026-04-17 11:11:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-173 - Rotating notifications up to: 1
+2026-04-17 11:11:29,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-173 - Rotating notifications, handling 0 rows
+2026-04-17 11:11:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-173 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:11:29,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-173 - Dropped 0 items from caches
+2026-04-17 11:11:59,730 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-174 - Rotating notifications
+2026-04-17 11:11:59,731 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-174 - Rotating notifications up to: 1
+2026-04-17 11:11:59,731 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-174 - Rotating notifications, handling 0 rows
+2026-04-17 11:11:59,737 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-174 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:11:59,782 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-174 - Dropped 0 items from caches
+2026-04-17 11:12:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-175 - Rotating notifications
+2026-04-17 11:12:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-175 - Rotating notifications up to: 1
+2026-04-17 11:12:29,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-175 - Rotating notifications, handling 0 rows
+2026-04-17 11:12:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-175 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:12:29,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-175 - Dropped 0 items from caches
+2026-04-17 11:12:59,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-176 - Rotating notifications
+2026-04-17 11:12:59,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-176 - Rotating notifications up to: 1
+2026-04-17 11:12:59,720 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-176 - Rotating notifications, handling 0 rows
+2026-04-17 11:12:59,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-176 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:12:59,782 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-176 - Dropped 0 items from caches
+2026-04-17 11:13:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-177 - Rotating notifications
+2026-04-17 11:13:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-177 - Rotating notifications up to: 1
+2026-04-17 11:13:29,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-177 - Rotating notifications, handling 0 rows
+2026-04-17 11:13:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-177 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:13:29,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-177 - Dropped 0 items from caches
+2026-04-17 11:13:59,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-178 - Rotating notifications
+2026-04-17 11:13:59,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-178 - Rotating notifications up to: 1
+2026-04-17 11:13:59,720 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-178 - Rotating notifications, handling 0 rows
+2026-04-17 11:13:59,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-178 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:13:59,782 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-178 - Dropped 0 items from caches
+2026-04-17 11:14:29,719 - synapse.storage.databases.main.event_push_actions - 1238 - INFO - event_push_action_stream_orderings-8 - Searching for stream ordering 1 month ago
+2026-04-17 11:14:29,719 - synapse.storage.databases.main.event_push_actions - 1242 - INFO - event_push_action_stream_orderings-8 - Found stream ordering 1 month ago: it's 0
+2026-04-17 11:14:29,719 - synapse.storage.databases.main.event_push_actions - 1245 - INFO - event_push_action_stream_orderings-8 - Searching for stream ordering 1 day ago
+2026-04-17 11:14:29,719 - synapse.storage.databases.main.event_push_actions - 1249 - INFO - event_push_action_stream_orderings-8 - Found stream ordering 1 day ago: it's 0
+2026-04-17 11:14:29,720 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-179 - Rotating notifications
+2026-04-17 11:14:29,721 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-179 - Rotating notifications up to: 1
+2026-04-17 11:14:29,721 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-179 - Rotating notifications, handling 0 rows
+2026-04-17 11:14:29,722 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-179 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:14:29,784 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-179 - Dropped 0 items from caches
+2026-04-17 11:14:29,827 - synapse.storage.databases.main.metrics - 404 - INFO - generate_user_daily_visits-17 - Calling _generate_user_daily_visits
+2026-04-17 11:14:59,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-180 - Rotating notifications
+2026-04-17 11:14:59,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-180 - Rotating notifications up to: 1
+2026-04-17 11:14:59,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-180 - Rotating notifications, handling 0 rows
+2026-04-17 11:14:59,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-180 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:14:59,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-180 - Dropped 0 items from caches
+2026-04-17 11:15:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-181 - Rotating notifications
+2026-04-17 11:15:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-181 - Rotating notifications up to: 1
+2026-04-17 11:15:29,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-181 - Rotating notifications, handling 0 rows
+2026-04-17 11:15:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-181 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:15:29,782 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-181 - Dropped 0 items from caches
+2026-04-17 11:15:59,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-182 - Rotating notifications
+2026-04-17 11:15:59,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-182 - Rotating notifications up to: 1
+2026-04-17 11:15:59,720 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-182 - Rotating notifications, handling 0 rows
+2026-04-17 11:15:59,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-182 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:15:59,782 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-182 - Dropped 0 items from caches
+2026-04-17 11:16:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-183 - Rotating notifications
+2026-04-17 11:16:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-183 - Rotating notifications up to: 1
+2026-04-17 11:16:29,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-183 - Rotating notifications, handling 0 rows
+2026-04-17 11:16:29,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-183 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:16:29,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-183 - Dropped 0 items from caches
+2026-04-17 11:16:59,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-184 - Rotating notifications
+2026-04-17 11:16:59,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-184 - Rotating notifications up to: 1
+2026-04-17 11:16:59,719 - synapse.storage.databases.main.event_push_actions - 1681 - INFO - rotate_notifs-184 - Rotating notifications, handling 0 rows
+2026-04-17 11:16:59,720 - synapse.storage.databases.main.event_push_actions - 1766 - INFO - rotate_notifs-184 - Rotating notifications, deleted 0 push actions
+2026-04-17 11:16:59,781 - synapse.util.caches.lrucache - 220 - INFO - LruCache._expire_old_entries-184 - Dropped 0 items from caches
+2026-04-17 11:17:29,719 - synapse.storage.databases.main.event_push_actions - 1392 - INFO - rotate_notifs-185 - Rotating notifications
+2026-04-17 11:17:29,719 - synapse.storage.databases.main.event_push_actions - 1595 - INFO - rotate_notifs-185 - Rotating notifications up to: 1
