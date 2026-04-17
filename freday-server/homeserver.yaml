@@ -40,3 +40,11 @@ trusted_key_servers:
 
 
 # vim:ft=yaml
+web_client_location: https://laughing-system-gxq4qg95qr7rfx7r-8080.app.github.dev
+allow_guest_access: false
+enable_registration: true
+enable_registration_without_verification: true
+
+web_client_location: https://laughing-system-gxq4qg95qr7rfx7r-8080.app.github.dev
+enable_registration: true
+enable_registration_without_verification: true
