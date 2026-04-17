@@ -1,0 +1,42 @@
+# Configuration file for Synapse.
+#
+# This is a YAML file: see [1] for a quick introduction. Note in particular
+# that *indentation is important*: all the elements of a list or dictionary
+# should have the same indentation.
+#
+# [1] https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+#
+# For more information on how to configure Synapse, including a complete accounting of
+# each option, go to docs/usage/configuration/config_documentation.md or
+# https://element-hq.github.io/synapse/latest/usage/configuration/config_documentation.html
+server_name: "freday.local"
+pid_file: /workspaces/freday/freday-server/homeserver.pid
+listeners:
+  - bind_addresses:
+    - ::1
+    - 127.0.0.1
+    port: 8008
+    resources:
+    - compress: false
+      names:
+      - client
+      - federation
+    tls: false
+    type: http
+    x_forwarded: true
+database:
+  name: sqlite3
+  args:
+    database: /workspaces/freday/freday-server/homeserver.db
+log_config: "/tmp/freday.local.log.config"
+media_store_path: /workspaces/freday/freday-server/media_store
+registration_shared_secret: "l=+~HeYsMyT-~Ra&J6w*FXXLJc.bAZf2GDnN;=+s@b,d;,3JID"
+report_stats: false
+macaroon_secret_key: "NQzeOPRRhqCU^Y3K#dXP_h6_:ru&=LCAW~6LJzxGThU+c1zk=,"
+form_secret: "776lX.2vbmdZlf85VC=jg3H-nH,5P5=dVZgA-T@55@pKp@~ih="
+signing_key_path: "/tmp/freday.local.signing.key"
+trusted_key_servers:
+  - server_name: "matrix.org"
+
+
+# vim:ft=yaml
