@@ -9,10 +9,10 @@
 # For more information on how to configure Synapse, including a complete accounting of
 # each option, go to docs/usage/configuration/config_documentation.md or
 # https://element-hq.github.io/synapse/latest/usage/configuration/config_documentation.html
-server_name: "freday.local"
+server_name: "freday-production.up.railway.app"
 pid_file: /workspaces/freday/freday-server/homeserver.pid
 listeners:
-  - bind_addresses: ["0.0.0.0"]
+  - bind_addresses:
     - ::1
     - 127.0.0.1
     port: 8008
@@ -28,23 +28,15 @@ database:
   name: sqlite3
   args:
     database: /workspaces/freday/freday-server/homeserver.db
-log_config: "/tmp/freday.local.log.config"
+log_config: "/tmp/freday-production.up.railway.app.log.config"
 media_store_path: /workspaces/freday/freday-server/media_store
-registration_shared_secret: "l=+~HeYsMyT-~Ra&J6w*FXXLJc.bAZf2GDnN;=+s@b,d;,3JID"
+registration_shared_secret: "6pQB:EBkM*IwaBh2b8KWEJDsY3.J4WSeMXq;aPEYv7B#WBJrBD"
 report_stats: false
-macaroon_secret_key: "NQzeOPRRhqCU^Y3K#dXP_h6_:ru&=LCAW~6LJzxGThU+c1zk=,"
-form_secret: "776lX.2vbmdZlf85VC=jg3H-nH,5P5=dVZgA-T@55@pKp@~ih="
-signing_key_path: "/tmp/freday.local.signing.key"
+macaroon_secret_key: "jWY+_^^P;WJwJx=:GX.D:_G19sb7j@0v@aHxlHWiGJs~JrL=Wv"
+form_secret: ".XaWGH-u.I-PBI4sF49,aU~&&ypp6rZZSsbt5VYA0aAKRce827"
+signing_key_path: "/tmp/freday-production.up.railway.app.signing.key"
 trusted_key_servers:
   - server_name: "matrix.org"
 
 
 # vim:ft=yaml
-web_client_location: https://laughing-system-gxq4qg95qr7rfx7r-8080.app.github.dev
-allow_guest_access: false
-enable_registration: true
-enable_registration_without_verification: true
-
-web_client_location: https://laughing-system-gxq4qg95qr7rfx7r-8080.app.github.dev
-enable_registration: true
-enable_registration_without_verification: true
